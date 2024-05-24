@@ -9,7 +9,7 @@ const ICON = memo(() => {
                 onMouseEnter={() => {
                     console.log('enter...')
                     setIsHover(true)
-                    window.electronAPI.setBounds({ width: 400, height: 500, originX: 400, originY: 500, })
+                    // window.electronAPI.setBounds({ width: 400, height: 500, originX: 400, originY: 500, })
                 }}
          
             >
