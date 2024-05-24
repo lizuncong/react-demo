@@ -1,0 +1,35 @@
+.icon {
+    /* -webkit-app-region: drag; */
+    background-color: green;
+    overflow: hidden;
+    width: 85px;
+    border-radius: 50%;
+    height: 85px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 111;
+}
+.hover {
+    position:fixed;
+    right: 0;
+    bottom: 0;
+}
+
+.box {
+    display: none;
+    position: fixed;
+    right: 20px;
+    left: 20px;
+    bottom: 20px;
+    top: 20px;
+    background-color: red;
+}
+
+.showbox {
+    display: block;
+}
